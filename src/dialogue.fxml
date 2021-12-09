@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DialogueController">
+   <children>
+      <Button fx:id="ButtonConectar" layoutX="35.0" layoutY="112.0" mnemonicParsing="false" text="Conectar" />
+      <Button fx:id="ButtonHospedar" layoutX="290.0" layoutY="112.0" mnemonicParsing="false" text="Hospedar" />
+      <TextField fx:id="nomeField" layoutX="111.0" layoutY="32.0" prefHeight="25.0" prefWidth="168.0" promptText="Digite seu nome" />
+      <TextField fx:id="IPField" layoutX="111.0" layoutY="70.0" prefHeight="25.0" prefWidth="168.0" promptText="Digite o IP caso for conectar" />
+   </children>
+</Pane>
